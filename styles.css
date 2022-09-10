@@ -1,0 +1,118 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(/assets/background/pexels-irina-iriser.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*Profile Icon*/
+header {
+    margin-top: 1.5em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header > img {
+    border-radius: 100%;
+    width: 10rem;
+    height: 10rem;
+    border: 2px double wheat;
+}
+
+
+header > h1 {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 0.27em 0.38em;
+    background-image: linear-gradient(45deg, #95ecb0, #f3f98a);
+}
+
+/*Links*/
+.twitter {
+    box-sizing: border-box;
+    margin: 1.5em auto;
+    padding: 1.1em;
+    display: flex;
+    width: 50%;
+    border-radius: 50px;
+    justify-content: center;
+    background: linear-gradient(45deg, rgba(195,88,34,0.9360119047619048) 0%, rgba(253,237,45,1) 100%);
+    gap: 0.5em;
+}
+
+.twitter > a {
+    text-decoration: none;
+    color:white;
+}
+
+.github {
+    box-sizing: border-box;
+    margin: 1.5em auto;
+    padding: 1.1em;
+    display: flex;
+    width: 50%;
+    border-radius: 50px;
+    justify-content: center;
+    background: linear-gradient(45deg, rgba(195,88,34,0.9360119047619048) 0%, rgba(253,237,45,1) 100%);
+    gap: 0.5em;
+}
+
+.github > a {
+    text-decoration: none;
+    color:white;
+}
+
+.facebook {
+    box-sizing: border-box;
+    margin: 1.5em auto;
+    padding: 1.1em;
+    display: flex;
+    width: 50%;
+    border-radius: 50px;
+    justify-content: center;
+    background: linear-gradient(45deg, rgba(195,88,34,0.9360119047619048) 0%, rgba(253,237,45,1) 100%);
+    gap: 0.5em;
+}
+
+.facebook > a {
+    text-decoration: none;
+    color:white;
+    
+}
+
+.karyakarsa {
+    box-sizing: border-box;
+    margin: 1.5em auto;
+    padding: 1.1em;
+    display: flex;
+    width: 50%;
+    border-radius: 50px;
+    justify-content: center;
+    background: linear-gradient(45deg, rgba(195,88,34,0.9360119047619048) 0%, rgba(253,237,45,1) 100%);
+    gap: 0.5em;
+}
+
+.karyakarsa > a {
+    text-decoration: none;
+    color:white;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    color: ivory;
+}
+
+p {
+    font-size: 18px;
+}
